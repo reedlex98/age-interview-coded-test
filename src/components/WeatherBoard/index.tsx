@@ -23,7 +23,7 @@ const WeatherBoard : React.FC<DetailsProps> = ({match} : DetailsProps) => {
     }, [])
     
     return <div className="weather-board-container">
-      { isFetchingCompleted ? <WeatherCard apiResponse={apiData} cityname={cityInfo.name} /> : <FontAwesomeIcon icon={["fas", "spinner"]} spin />}
+      { isFetchingCompleted ? <WeatherCard apiResponse={apiData} cityname={cityInfo.name} /> : <FontAwesomeIcon icon={["fas", "spinner"]}  size="4x" spin style={{color: "lightblue"}}/>}
     </div>
 }
 
