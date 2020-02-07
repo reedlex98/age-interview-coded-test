@@ -1,0 +1,28 @@
+.cities-container{
+    width: 80vw;
+    height: 500px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -ms-overflow-style: none;
+}
+
+.cities-container::-webkit-scrollbar {
+    display: none;
+    width: 0;
+}
+
+.cities-container input{
+    margin: 25px 0 ;
+    padding: 10px;
+    width: 80%;
+    outline: none;
+    border: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: rgba(9, 2, 90, 0.61);
+    border-bottom: 1px solid rgba(9, 2, 90, 0.61);
+}
+
