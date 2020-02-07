@@ -1,0 +1,56 @@
+.weather-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(9, 2, 90, 0.61);
+    color: rgb(220, 229, 236);
+    padding: 20px;
+    width: 500px;
+}
+
+.weather-card .card-title{
+    margin-bottom: 10px;
+}
+.weather-card .card-title span{
+    font-weight: bold;
+}
+
+.min-max-temp{
+    width: 50%;
+}
+
+.min-max-temp, .temp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.temp p{
+    font-size: 2em;
+}
+
+.temp-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.other-data{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.other-data li{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px;
+}
+.other-data li span{
+    color:lightblue
+}

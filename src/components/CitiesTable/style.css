@@ -17,6 +17,11 @@
     border: 1px solid red;
 }
 
+.cities-table a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .cities-table td, .cities-table th{
     width: 20%;
 }

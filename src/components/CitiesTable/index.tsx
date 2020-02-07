@@ -3,6 +3,7 @@ import cities from '../../json/city.list.json'
 import City from '../../json/city.interface'
 import geodist from 'geodist'
 import './style.css'
+import {Link} from 'react-router-dom'
 const brazilianCities = (cities as City[]).filter(city => city.country === 'BR')
 
 interface CitiesTableProps {
@@ -22,7 +23,7 @@ const CitiesTable: React.FC<CitiesTableProps> = ({cityName, coord} : CitiesTable
     const createTableRow = (citiesArr : City[]) => citiesArr.map(({ id, name, coord, country }) =>
         <tr key={id}>
             <td>{id}</td>
-            <td>{name}</td>
+            <td><Link to={{pathname: `/weather-board/${id}`}}>{name}</Link></td>
             <td>{country}</td>
             <td>{coord.lat}</td>
             <td>{coord.lon}</td>
