@@ -1,0 +1,22 @@
+.cities-table{
+    background-color: rgba(9, 2, 90, 0.61);
+    color: rgb(220, 229, 236);
+    width: 100%;
+    text-align: center;
+}
+
+.cities-table tr:nth-child(even), thead tr{
+    background-color: rgba(110, 104, 179, 0.61);
+}
+
+.cities-table thead tr th, .cities-table tbody tr td{
+    padding: 10px;
+}
+
+.cities-table tr{
+    border: 1px solid red;
+}
+
+.cities-table td, .cities-table th{
+    width: 20%;
+}
