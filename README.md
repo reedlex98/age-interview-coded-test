@@ -34,7 +34,7 @@ Como executar localmente (produção ou desenvolvimento)
     git clone https://github.com/reedlex98/age-interview-coded-test.git
     cd age-interview-coded-teste
     npm install
-    echo "REACT_APP_GOOGLE_API_KEY=$YOUR_KEY" > .env
+    echo "REACT_APP_OPENWHEATERKEY=$YOUR_KEY" > .env
     npm start
 
 ### Produção
